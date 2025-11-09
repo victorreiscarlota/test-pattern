@@ -13,8 +13,10 @@
     "jest": "^29.7.0"
   },
   "jest": {
+    "testEnvironment": "node",
     "transform": {
       "^.+\\.js$": "babel-jest"
-    }
+    },
+    "testPathIgnorePatterns": ["/__tests__/builders/"]
   }
 }
